@@ -46,6 +46,11 @@
       "https://www.iana.org/assignments/media-types/application/A2L"
     ]
   },
+  "application/aas+zip": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/aas+zip"
+    ]
+  },
   "application/ace+cbor": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc9200.txt",
@@ -533,6 +538,26 @@
       "https://www.iana.org/assignments/media-types/application/cms"
     ]
   },
+  "application/cmw+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/cmw+cbor"
+    ]
+  },
+  "application/cmw+cose": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/cmw+cose"
+    ]
+  },
+  "application/cmw+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/cmw+json"
+    ]
+  },
+  "application/cmw+jws": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/cmw+jws"
+    ]
+  },
   "application/cnrp+xml": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc3367.txt",
@@ -969,6 +994,11 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc9163.txt",
       "https://www.iana.org/assignments/media-types/application/expect-ct-report+json"
+    ]
+  },
+  "application/explicit-registration-response+jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/explicit-registration-response+jwt"
     ]
   },
   "application/express": {
@@ -1558,6 +1588,16 @@
     "sources": [
       "https://tools.ietf.org/rfc/rfc4155.txt",
       "https://www.iana.org/assignments/media-types/application/mbox"
+    ]
+  },
+  "application/measured-component+cbor": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/measured-component+cbor"
+    ]
+  },
+  "application/measured-component+json": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/measured-component+json"
     ]
   },
   "application/media-policy-dataset+xml": {
@@ -2180,6 +2220,11 @@
       "https://www.iana.org/assignments/media-types/application/prs.rdf-xml-crypt"
     ]
   },
+  "application/prs.sclt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/prs.sclt"
+    ]
+  },
   "application/prs.vcfbzip2": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/prs.vcfbzip2"
@@ -2315,6 +2360,7 @@
     ]
   },
   "application/rpki-ghostbusters": {
+    "notes": "DEPRECATED",
     "sources": [
       "https://tools.ietf.org/rfc/rfc6493.txt",
       "https://www.iana.org/assignments/media-types/application/rpki-ghostbusters"
@@ -2464,6 +2510,7 @@
   },
   "application/sdf+json": {
     "sources": [
+      "https://tools.ietf.org/rfc/rfc9880.txt",
       "https://www.iana.org/assignments/media-types/application/sdf+json"
     ]
   },
@@ -2730,6 +2777,11 @@
       "https://www.iana.org/assignments/media-types/application/suit-envelope+cose"
     ]
   },
+  "application/suit-report+cose": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/suit-report+cose"
+    ]
+  },
   "application/swid+cbor": {
     "sources": [
       "https://tools.ietf.org/rfc/rfc9393.txt",
@@ -2925,6 +2977,11 @@
       "https://www.iana.org/assignments/media-types/application/trust-mark-delegation+jwt"
     ]
   },
+  "application/trust-mark-status-response+jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/trust-mark-status-response+jwt"
+    ]
+  },
   "application/ttml+xml": {
     "extensions": ["ttml"],
     "sources": [
@@ -3001,6 +3058,11 @@
   "application/vc+jwt": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vc+jwt"
+    ]
+  },
+  "application/vc+sd-jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vc+sd-jwt"
     ]
   },
   "application/vcard+json": {
@@ -3603,6 +3665,11 @@
   "application/vnd.ahead.space": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.ahead.space"
+    ]
+  },
+  "application/vnd.aia": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.aia"
     ]
   },
   "application/vnd.airzip.filesecure.azf": {
@@ -8138,9 +8205,24 @@
       "https://www.iana.org/assignments/media-types/application/vnd.ufdl"
     ]
   },
+  "application/vnd.uic.dosipas.v1": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.uic.dosipas.v1"
+    ]
+  },
+  "application/vnd.uic.dosipas.v2": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.uic.dosipas.v2"
+    ]
+  },
   "application/vnd.uic.osdm+json": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.uic.osdm+json"
+    ]
+  },
+  "application/vnd.uic.tlb-fcb": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.uic.tlb-fcb"
     ]
   },
   "application/vnd.uiq.theme": {
@@ -8475,6 +8557,11 @@
       "https://www.iana.org/assignments/media-types/application/vnd.xarin.cpj"
     ]
   },
+  "application/vnd.xcdn": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.xcdn"
+    ]
+  },
   "application/vnd.xecrets-encrypted": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.xecrets-encrypted"
@@ -8580,6 +8667,11 @@
       "https://www.iana.org/assignments/media-types/application/vnd.yellowriver-custom-menu"
     ]
   },
+  "application/vnd.zoho-presentation.show": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vnd.zoho-presentation.show"
+    ]
+  },
   "application/vnd.zul": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vnd.zul"
@@ -8621,6 +8713,11 @@
   "application/vp+jwt": {
     "sources": [
       "https://www.iana.org/assignments/media-types/application/vp+jwt"
+    ]
+  },
+  "application/vp+sd-jwt": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/application/vp+sd-jwt"
     ]
   },
   "application/vq-rtcpxr": {
@@ -9550,6 +9647,11 @@
   "audio/sofa": {
     "sources": [
       "https://www.iana.org/assignments/media-types/audio/sofa"
+    ]
+  },
+  "audio/soundfont": {
+    "sources": [
+      "https://www.iana.org/assignments/media-types/audio/soundfont"
     ]
   },
   "audio/sp-midi": {
